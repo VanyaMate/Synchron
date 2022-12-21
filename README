@@ -1,0 +1,16 @@
+// html 
+
+<div id="synchron-hello-world">Hi, my name is {{name}} and im from {{country}}</div>
+
+// js 
+
+const helloWorld = new Synchron({
+    element: '#synchron-hello-world',
+    data: {
+        name: 'Vanya',
+        country: 'Russia',
+    },
+});
+
+// Change value: helloWorld.data.country = "any";
+
